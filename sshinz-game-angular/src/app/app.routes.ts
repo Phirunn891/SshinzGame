@@ -25,5 +25,5 @@ export const routes: Routes = [
     ]
   },
   { path: 'login', component: LoginComponent },
-  { path: '**', redirectTo: 'all-games' }
+  { path: '**', redirectTo: '' }
 ];
