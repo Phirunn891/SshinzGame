@@ -1,8 +1,10 @@
 {
-  "routes": [
+  "buildCommand": "ng build --configuration production",
+  "outputDirectory": "dist/sshinz-game-angular/browser",
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
